@@ -10,7 +10,7 @@ export const Route = createFileRoute('/products/$productdetails')({
   },
   component: RouteComponent,
 })
-
+console.log("ufbdsmbdjd")
 function RouteComponent() {
   const product = Route.useLoaderData()
   return (
